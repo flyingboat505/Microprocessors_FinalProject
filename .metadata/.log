@@ -1439,3 +1439,7 @@ Caused by: com.jcraft.jsch.JSchException: Auth fail
 	at com.jcraft.jsch.Session.connect(Session.java:519)
 	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:137)
 	... 8 more
+
+!ENTRY com.ti.ccstudio.debug 1 0 2019-10-02 14:48:11.302
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\abhil\Documents\tirslk_maze_1_00_01\tirslk_maze_1_00_00\Lab04_SoftwareDesign\Debug\Lab04_SoftwareDesign.out Could not open file
+

@@ -10629,3 +10629,139 @@ gmake: *** [Lab04_SoftwareDesignmain.obj] Error 1
 gmake: Target 'all' not remade because of errors.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Lab04_SoftwareDesign ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab04_SoftwareDesignmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/Lab04_SoftwareDesign" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab04_SoftwareDesignmain.d_raw"  "../Lab04_SoftwareDesignmain.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Lab04_SoftwareDesignmain.obj' failed
+"../Lab04_SoftwareDesignmain.c", line 69: warning #994-D: missing return statement at end of non-void function "LOpen"
+"../Lab04_SoftwareDesignmain.c", line 72: warning #994-D: missing return statement at end of non-void function "LClosed"
+"../Lab04_SoftwareDesignmain.c", line 74: warning #994-D: missing return statement at end of non-void function "ROpen"
+"../Lab04_SoftwareDesignmain.c", line 76: warning #994-D: missing return statement at end of non-void function "RClosed"
+"../Lab04_SoftwareDesignmain.c", line 79: warning #994-D: missing return statement at end of non-void function "COpen"
+"../Lab04_SoftwareDesignmain.c", line 82: warning #994-D: missing return statement at end of non-void function "CClosed"
+"../Lab04_SoftwareDesignmain.c", line 105: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 111: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 116: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 121: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 141: error #1489: GCC && operator not supported
+"../Lab04_SoftwareDesignmain.c", line 141: error #29: expected an expression
+"../Lab04_SoftwareDesignmain.c", line 236: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../Lab04_SoftwareDesignmain.c", line 255: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+2 errors detected in the compilation of "../Lab04_SoftwareDesignmain.c".
+gmake: *** [Lab04_SoftwareDesignmain.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab04_SoftwareDesign ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab04_SoftwareDesignmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/Lab04_SoftwareDesign" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab04_SoftwareDesignmain.d_raw"  "../Lab04_SoftwareDesignmain.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Lab04_SoftwareDesignmain.obj' failed
+"../Lab04_SoftwareDesignmain.c", line 69: warning #994-D: missing return statement at end of non-void function "LOpen"
+"../Lab04_SoftwareDesignmain.c", line 72: warning #994-D: missing return statement at end of non-void function "LClosed"
+"../Lab04_SoftwareDesignmain.c", line 74: warning #994-D: missing return statement at end of non-void function "ROpen"
+"../Lab04_SoftwareDesignmain.c", line 76: warning #994-D: missing return statement at end of non-void function "RClosed"
+"../Lab04_SoftwareDesignmain.c", line 79: warning #994-D: missing return statement at end of non-void function "COpen"
+"../Lab04_SoftwareDesignmain.c", line 82: warning #994-D: missing return statement at end of non-void function "CClosed"
+"../Lab04_SoftwareDesignmain.c", line 105: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 111: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 116: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 121: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 141: error #1489: GCC && operator not supported
+"../Lab04_SoftwareDesignmain.c", line 141: error #29: expected an expression
+"../Lab04_SoftwareDesignmain.c", line 236: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../Lab04_SoftwareDesignmain.c", line 255: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+2 errors detected in the compilation of "../Lab04_SoftwareDesignmain.c".
+gmake: *** [Lab04_SoftwareDesignmain.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab04_SoftwareDesign ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab04_SoftwareDesignmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/Lab04_SoftwareDesign" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab04_SoftwareDesignmain.d_raw"  "../Lab04_SoftwareDesignmain.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Lab04_SoftwareDesignmain.obj' failed
+"../Lab04_SoftwareDesignmain.c", line 69: warning #994-D: missing return statement at end of non-void function "LOpen"
+"../Lab04_SoftwareDesignmain.c", line 72: warning #994-D: missing return statement at end of non-void function "LClosed"
+"../Lab04_SoftwareDesignmain.c", line 74: warning #994-D: missing return statement at end of non-void function "ROpen"
+"../Lab04_SoftwareDesignmain.c", line 76: warning #994-D: missing return statement at end of non-void function "RClosed"
+"../Lab04_SoftwareDesignmain.c", line 79: warning #994-D: missing return statement at end of non-void function "COpen"
+"../Lab04_SoftwareDesignmain.c", line 82: warning #994-D: missing return statement at end of non-void function "CClosed"
+"../Lab04_SoftwareDesignmain.c", line 105: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 111: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 116: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 121: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 141: error #1489: GCC && operator not supported
+"../Lab04_SoftwareDesignmain.c", line 141: error #29: expected an expression
+"../Lab04_SoftwareDesignmain.c", line 236: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../Lab04_SoftwareDesignmain.c", line 255: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+2 errors detected in the compilation of "../Lab04_SoftwareDesignmain.c".
+gmake: *** [Lab04_SoftwareDesignmain.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab04_SoftwareDesign ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 Lab04_SoftwareDesignmain.obj -O 
+ 
+Building file: "../Lab04_SoftwareDesignmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/Lab04_SoftwareDesign" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab04_SoftwareDesignmain.d_raw"  "../Lab04_SoftwareDesignmain.c"
+"../Lab04_SoftwareDesignmain.c", line 69: warning #994-D: missing return statement at end of non-void function "LOpen"
+"../Lab04_SoftwareDesignmain.c", line 72: warning #994-D: missing return statement at end of non-void function "LClosed"
+"../Lab04_SoftwareDesignmain.c", line 74: warning #994-D: missing return statement at end of non-void function "ROpen"
+"../Lab04_SoftwareDesignmain.c", line 76: warning #994-D: missing return statement at end of non-void function "RClosed"
+"../Lab04_SoftwareDesignmain.c", line 79: warning #994-D: missing return statement at end of non-void function "COpen"
+"../Lab04_SoftwareDesignmain.c", line 82: warning #994-D: missing return statement at end of non-void function "CClosed"
+"../Lab04_SoftwareDesignmain.c", line 105: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 111: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 116: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 121: warning #190-D: enumerated type mixed with another type
+"../Lab04_SoftwareDesignmain.c", line 236: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../Lab04_SoftwareDesignmain.c", line 255: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../Lab04_SoftwareDesignmain.c"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab04_SoftwareDesign ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "Lab04_SoftwareDesign.out"
+Invoking: MSP432 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab04_SoftwareDesign.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs910/ccs/ccs_base/arm/include" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab04_SoftwareDesign_linkInfo.xml" --rom_model -o "Lab04_SoftwareDesign.out" "./Lab04_SoftwareDesignmain.obj" "../Solution.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+Finished building target: "Lab04_SoftwareDesign.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab04_SoftwareDesign ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab04_SoftwareDesign.out' is up to date.
+
+**** Build Finished ****

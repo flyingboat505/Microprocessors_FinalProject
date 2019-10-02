@@ -138,7 +138,7 @@ scenario_t Classify(int32_t Left, int32_t Center, int32_t Right){
   }
   //case 11-T-Joint
   //double check- add constaitns
-  if(Center>=CENTERMIN && Center<CENTEROPEN &&  && Left>=SIDEMAX && Right>=SIDEMAX ){
+  if(Center>=CENTERMIN && Center<CENTEROPEN && Left>=SIDEMAX && Right>=SIDEMAX ){
       result=TeeJoint ;
   }
   //case 12
