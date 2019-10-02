@@ -73,7 +73,7 @@ int Program6_1(void){
 }
 
 int32_t Position; // 332 is right, and -332 is left of center
-int main(void){
+int main2(void){
   Clock_Init48MHz();
   Reflectance_Init();
   TExaS_Init(LOGICANALYZER_P7);
@@ -83,8 +83,8 @@ int main(void){
     Clock_Delay1ms(10);
   }
 }
-
-int main2(void){ // main2(void){
+//main2 rewrite
+int main(void){ // main2(void){
     int32_t i;
   Clock_Init48MHz();
   Reflectance_Init();
@@ -98,11 +98,14 @@ int main2(void){ // main2(void){
     P7->OUT = 0xFF;       // prime for measurement
     Clock_Delay1us(10);   // wait 10 us
     P7->DIR = 0x00;       // make P7.7-P7.0 in
+    //P7->DIR &= ~0x01;
     for(i=0;i<10000;i++){
-      P4->OUT = P7->IN&0x01; // convert input to digital
+        P4->OUT = P7->IN&0x01; // convert input to digital
+        //P4->OUT = P7->IN&0x01;
     }
     P5->OUT &= ~0x08;     // turn off 8 IR LEDs
     Clock_Delay1ms(10);
+
   }
 }
 

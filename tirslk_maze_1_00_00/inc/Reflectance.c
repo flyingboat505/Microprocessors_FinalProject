@@ -68,7 +68,20 @@ policies, either expressed or implied, of the FreeBSD Project.
 // Input: none
 // Output: none
 void Reflectance_Init(void){
-    // write this as part of Lab 6
+
+    P5->SEL0 &= ~0x08;
+    P5->SEL1 &= ~0x08;
+    P5->DIR |= 0x01; //5.3 is output
+    P5->OUT&= ~0x01;
+
+    P7->SEL0 = 0x01; //setting everything to zero
+    P7->SEL1 = 0x01;
+    P7->DIR &= ~0x01; //7  is input
+
+    P9->SEL0 &= ~0x04;
+    P9->SEL1 &= ~0x04;
+    P9->DIR |= 0x04; //5.3 is output
+    P9->OUT&= ~0x04;
 }
 
 // ------------Reflectance_Read------------
@@ -82,11 +95,39 @@ void Reflectance_Init(void){
 // Input: time to wait in usec
 // Output: sensor readings
 // Assumes: Reflectance_Init() has been called
+/*
+ *  <b>Read the eight sensors</b>:<br>
+  1) Turn on the 8 IR LEDs<br>
+  2) Pulse the 8 sensors high for 10 us<br>
+  3) Make the sensor pins input<br>
+  4) Wait <b>time</b> us<br>
+  5) Read sensors (white is 0, black is 1)<br>
+  6) Turn off the 8 IR LEDs<br>
+ * @param  time delay value in us
+ * @return 8-bit result
+ * @note Assumes Reflectance_Init() has been called
+ * @brief  Read the eight sensors.
+ */
+ */
 uint8_t Reflectance_Read(uint32_t time){
-uint8_t result;
+    uint8_t result;
+    P5->DIR |=0x08;
+    P5->OUT |=0x08;
+
+    P7->DIR =0XFF;
+    Clock_Delay1us(10); //solve this
+    P7->DIR =0X00;
+    Clock_Delay1ms(1); //splve this
+    result=P1->IN;
+    //result= //double check
+    P5->OUT&=~0x08;
+            /*
+             * Read pins P7.7 – P7.0 inputs.
+• Set P5.3 to low to turn off the IR LED.
+• Finally, return the 8-bit binary value measured
+             */
     // write this as part of Lab 6
-  result = 0; // replace this line
-  return result;
+   return result;
 }
 
 // ------------Reflectance_Center------------

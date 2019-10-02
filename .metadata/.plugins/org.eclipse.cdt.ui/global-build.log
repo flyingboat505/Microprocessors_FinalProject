@@ -10765,3 +10765,352 @@ Finished building target: "Lab04_SoftwareDesign.out"
 gmake[1]: 'Lab04_SoftwareDesign.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Reflectance.d_raw"  "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+ 
+>> Compilation failure
+subdir_rules.mk:23: recipe for target 'Reflectance.obj' failed
+"C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c", line 71: error #20: identifier "API" is undefined
+1 error detected in the compilation of "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c".
+gmake: *** [Reflectance.obj] Error 1
+Building file: "../Lab06_GPIOmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab06_GPIOmain.d_raw"  "../Lab06_GPIOmain.c"
+Finished building: "../Lab06_GPIOmain.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Reflectance.d_raw"  "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+"C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c", line 71: warning #225-D: function "Clock_Init48Mhz" declared implicitly
+Finished building: "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+ 
+Building target: "Lab06_GPIO.out"
+Invoking: MSP432 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab06_GPIO.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs910/ccs/ccs_base/arm/include" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab06_GPIO_linkInfo.xml" --rom_model -o "Lab06_GPIO.out" "./Clock.obj" "./Lab06_GPIOmain.obj" "./Reflectance.obj" "./TExaS.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+ 
+ undefined       first referenced 
+  symbol             in file      
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+ ---------       ---------------- 
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab06_GPIO.out' failed
+ Clock_Init48Mhz ./Reflectance.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab06_GPIO.out" not built
+gmake[1]: *** [Lab06_GPIO.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Reflectance.d_raw"  "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+Finished building: "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+ 
+Building target: "Lab06_GPIO.out"
+Invoking: MSP432 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab06_GPIO.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs910/ccs/ccs_base/arm/include" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab06_GPIO_linkInfo.xml" --rom_model -o "Lab06_GPIO.out" "./Clock.obj" "./Lab06_GPIOmain.obj" "./Reflectance.obj" "./TExaS.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab06_GPIO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab06_GPIOmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab06_GPIOmain.d_raw"  "../Lab06_GPIOmain.c"
+Finished building: "../Lab06_GPIOmain.c"
+ 
+Building target: "Lab06_GPIO.out"
+Invoking: MSP432 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab06_GPIO.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs910/ccs/ccs_base/arm/include" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab06_GPIO_linkInfo.xml" --rom_model -o "Lab06_GPIO.out" "./Clock.obj" "./Lab06_GPIOmain.obj" "./Reflectance.obj" "./TExaS.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab06_GPIO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Reflectance.d_raw"  "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+Finished building: "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+ 
+Building target: "Lab06_GPIO.out"
+Invoking: MSP432 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab06_GPIO.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs910/ccs/ccs_base/arm/include" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab06_GPIO_linkInfo.xml" --rom_model -o "Lab06_GPIO.out" "./Clock.obj" "./Lab06_GPIOmain.obj" "./Reflectance.obj" "./TExaS.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab06_GPIO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab06_GPIOmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab06_GPIOmain.d_raw"  "../Lab06_GPIOmain.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'Lab06_GPIOmain.obj' failed
+"../Lab06_GPIOmain.c", line 105: error #66: expected a ";"
+1 error detected in the compilation of "../Lab06_GPIOmain.c".
+gmake: *** [Lab06_GPIOmain.obj] Error 1
+Building file: "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Reflectance.d_raw"  "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+Finished building: "C:/Users/abhil/Documents/tirslk_maze_1_00_01/tirslk_maze_1_00_00/inc/Reflectance.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab06_GPIOmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab06_GPIOmain.d_raw"  "../Lab06_GPIOmain.c"
+Finished building: "../Lab06_GPIOmain.c"
+ 
+Building target: "Lab06_GPIO.out"
+Invoking: MSP432 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab06_GPIO.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs910/ccs/ccs_base/arm/include" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab06_GPIO_linkInfo.xml" --rom_model -o "Lab06_GPIO.out" "./Clock.obj" "./Lab06_GPIOmain.obj" "./Reflectance.obj" "./TExaS.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab06_GPIO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab06_GPIOmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab06_GPIOmain.d_raw"  "../Lab06_GPIOmain.c"
+Finished building: "../Lab06_GPIOmain.c"
+ 
+Building target: "Lab06_GPIO.out"
+Invoking: MSP432 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab06_GPIO.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs910/ccs/ccs_base/arm/include" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab06_GPIO_linkInfo.xml" --rom_model -o "Lab06_GPIO.out" "./Clock.obj" "./Lab06_GPIOmain.obj" "./Reflectance.obj" "./TExaS.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab06_GPIO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab06_GPIOmain.c"
+Invoking: MSP432 Compiler
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs910/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Lab06_GPIOmain.d_raw"  "../Lab06_GPIOmain.c"
+"../Lab06_GPIOmain.c", line 111: warning #112-D: statement is unreachable
+Finished building: "../Lab06_GPIOmain.c"
+ 
+Building target: "Lab06_GPIO.out"
+Invoking: MSP432 Linker
+"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=all --define=__MSP432P401R__ --define=TARGET_IS_MSP432P4XX --define=ccs -g --c99 --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab06_GPIO.map" --heap_size=1024 --stack_size=512 -i"C:/ti/ccs910/ccs/ccs_base/arm/include" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/lib" -i"C:/ti/ccs910/ccs/tools/compiler/ti-cgt-arm_18.12.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab06_GPIO_linkInfo.xml" --rom_model -o "Lab06_GPIO.out" "./Clock.obj" "./Lab06_GPIOmain.obj" "./Reflectance.obj" "./TExaS.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 4 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 5 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 6 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 7 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 8 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 9 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 10 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "Lab06_GPIO.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab06_GPIO ****
+
+"C:\\ti\\ccs910\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab06_GPIO.out' is up to date.
+
+**** Build Finished ****
