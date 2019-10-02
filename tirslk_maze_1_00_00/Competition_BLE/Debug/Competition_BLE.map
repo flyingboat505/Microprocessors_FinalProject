@@ -1,0 +1,1004 @@
+******************************************************************************
+                  TI ARM Linker PC v18.12.2                    
+******************************************************************************
+>> Linked Wed Aug 28 15:13:13 2019
+
+OUTPUT FILE NAME:   <Competition_BLE.out>
+ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 0000490d
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  MAIN                  00000000   00040000  00004e5e  0003b1a2  R  X
+  INFO                  00200000   00004000  00000000  00004000  R  X
+  SRAM_CODE             01000000   00010000  00003fa2  0000c05e  RW X
+  SRAM_DATA             20000000   00010000  00003fa2  0000c05e  RW  
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    00004e60   00004e60    r-x
+  00000000    00000000    000000e4   000000e4    r-- .intvecs
+  000000e4    000000e4    00004a0a   00004a0a    r-x .text
+  00004aee    00004aee    00000228   00000228    r-- .const
+  00004d18    00004d18    00000148   00000148    r-- .cinit
+20000000    20000000    00003da8   00000000    rw-
+  20000000    20000000    0000369a   00000000    rw- .bss
+  200036a0    200036a0    00000400   00000000    rw- .sysmem
+  20003aa0    20003aa0    00000308   00000000    rw- .data
+2000fe00    2000fe00    00000200   00000000    rw-
+  2000fe00    2000fe00    00000200   00000000    rw- .stack
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    000000e4     
+                  00000000    000000e4     startup_msp432p401r_ccs.obj (.intvecs:retain)
+
+.text      0    000000e4    00004a0a     
+                  000000e4    00001010     AP.obj (.text)
+                  000010f4    0000093c     Nokia5110.obj (.text)
+                  00001a30    00000780     Robot_BLEmain.obj (.text)
+                  000021b0    000006bc     UART0.obj (.text)
+                  0000286c    0000032c     system_msp432p401r.obj (.text)
+                  00002b98    00000304     LPF.obj (.text)
+                  00002e9c    000002ec     ADC14.obj (.text)
+                  00003188    00000228     PWM.obj (.text)
+                  000033b0    000001e0     Clock.obj (.text)
+                  00003590    000001a4     UART1.obj (.text)
+                  00003734    0000018c     Motor.obj (.text)
+                  000038c0    0000010c     rtsv7M4_T_le_v4SPD16_eabi.lib : fopen.c.obj (.text:_openfile)
+                  000039cc    000000f4     LaunchPad.obj (.text)
+                  00003ac0    000000f4     rtsv7M4_T_le_v4SPD16_eabi.lib : memory.c.obj (.text:aligned_alloc)
+                  00003bb4    000000e8                                   : memory.c.obj (.text:free)
+                  00003c9c    000000dc                                   : setvbuf.c.obj (.text:setvbuf)
+                  00003d78    000000c0     GPIO.obj (.text)
+                  00003e38    000000bc     rtsv7M4_T_le_v4SPD16_eabi.lib : open.c.obj (.text:open)
+                  00003ef4    000000b8                                   : add_device.c.obj (.text:add_device)
+                  00003fac    000000a8     TimerA1.obj (.text)
+                  00004054    0000009c     rtsv7M4_T_le_v4SPD16_eabi.lib : fopen.c.obj (.text:fopen)
+                  000040f0    0000009c                                   : memcpy_t2.asm.obj (.text)
+                  0000418c    0000007c     IRDistance.obj (.text)
+                  00004208    0000007c     rtsv7M4_T_le_v4SPD16_eabi.lib : memory.c.obj (.text:split)
+                  00004284    0000007a                                   : memset_t2.asm.obj (.text)
+                  000042fe    00000002                                   : _lock.c.obj (.text:_nop)
+                  00004300    00000078     Bump_port4.obj (.text)
+                  00004378    00000074     rtsv7M4_T_le_v4SPD16_eabi.lib : fclose.c.obj (.text:__TI_closefile)
+                  000043ec    00000068                                   : hostlseek.c.obj (.text:HOSTlseek)
+                  00004454    00000068                                   : hostrename.c.obj (.text:HOSTrename)
+                  000044bc    00000068                                   : copy_decompress_lzss.c.obj (.text:decompress:lzss:__TI_decompress_lzss)
+                  00004524    00000060                                   : hostopen.c.obj (.text:HOSTopen)
+                  00004584    0000005c                                   : close.c.obj (.text:close)
+                  000045e0    00000058                                   : hostread.c.obj (.text:HOSTread)
+                  00004638    00000058                                   : hostwrite.c.obj (.text:HOSTwrite)
+                  00004690    0000004c                                   : fflush.c.obj (.text:__TI_doflush)
+                  000046dc    00000048                                   : exit.c.obj (.text:exit)
+                  00004724    00000044                                   : hostclose.c.obj (.text:HOSTclose)
+                  00004768    00000044                                   : hostunlink.c.obj (.text:HOSTunlink)
+                  000047ac    00000044                                   : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
+                  000047f0    00000044                                   : getdevice.c.obj (.text:getdevice)
+                  00004834    00000038                                   : trgmsg.c.obj (.text:__TI_writemsg)
+                  0000486c    00000036                                   : strncpy.c.obj (.text:strncpy)
+                  000048a2    00000002     --HOLE-- [fill = 0]
+                  000048a4    00000034                                   : fopen.c.obj (.text:__TI_cleanup)
+                  000048d8    00000034                                   : trgmsg.c.obj (.text:__TI_readmsg)
+                  0000490c    00000034                                   : boot_cortex_m.c.obj (.text:_c_int00_noargs:_c_int00_noargs)
+                  00004940    00000034                                   : fopen.c.obj (.text:freopen)
+                  00004974    00000030                                   : getdevice.c.obj (.text:finddevice)
+                  000049a4    0000002c                                   : unlink.c.obj (.text:unlink)
+                  000049d0    00000028                                   : memory.c.obj (.text:free_list_insert)
+                  000049f8    00000028                                   : write.c.obj (.text:write)
+                  00004a20    00000024     CortexM.obj (.text)
+                  00004a44    0000001c     rtsv7M4_T_le_v4SPD16_eabi.lib : memory.c.obj (.text:free_list_remove)
+                  00004a60    00000018                                   : strcmp.c.obj (.text:strcmp)
+                  00004a78    00000016                                   : strchr.c.obj (.text:strchr)
+                  00004a8e    00000014                                   : strcpy.c.obj (.text:strcpy)
+                  00004aa2    00000014                                   : strlen.c.obj (.text:strlen)
+                  00004ab6    0000000e                                   : copy_decompress_none.c.obj (.text:decompress:none:__TI_decompress_none)
+                  00004ac4    0000000e     startup_msp432p401r_ccs.obj (.text)
+                  00004ad2    0000000c     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_zero_init.c.obj (.text:decompress:ZI:__TI_zero_init)
+                  00004ade    00000008                                   : memory.c.obj (.text:malloc)
+                  00004ae6    00000004                                   : pre_init.c.obj (.text:_system_pre_init)
+                  00004aea    00000004                                   : exit.c.obj (.text:abort:abort)
+
+.const     0    00004aee    00000228     
+                  00004aee    000001e0     Nokia5110.obj (.const:ASCII)
+                  00004cce    00000014     AP.obj (.const:.string:NPI_StartAdvertisement)
+                  00004ce2    00000011     AP.obj (.const:.string:NPI_SetAdvertisement1)
+                  00004cf3    00000009     AP.obj (.const:.string:HCI_EXT_ResetSystemCmd)
+                  00004cfc    00000008     Nokia5110.obj (.const:.string:Masks)
+                  00004d04    00000006     AP.obj (.const:.string:NPI_GetStatus)
+                  00004d0a    00000006     AP.obj (.const:.string:NPI_GetVersion)
+                  00004d10    00000006     AP.obj (.const:.string:NPI_Register)
+
+.cinit     0    00004d18    00000148     
+                  00004d18    00000120     (.cinit..data.load) [load image, compression = lzss]
+                  00004e38    0000000c     (__TI_handler_table)
+                  00004e44    00000004     --HOLE-- [fill = 0]
+                  00004e48    00000008     (.cinit..bss.load) [load image, compression = zero_init]
+                  00004e50    00000010     (__TI_cinit_table)
+
+.init_array 
+*          0    00000000    00000000     UNINITIALIZED
+
+.binit     0    00000000    00000000     
+
+.bss       0    20000000    0000369a     UNINITIALIZED
+                  20000000    00001000     (.common:x)
+                  20001000    00001000     (.common:x2)
+                  20002000    00001000     (.common:x3)
+                  20003000    000001f8     (.common:Screen)
+                  200031f8    00000120     rtsv7M4_T_le_v4SPD16_eabi.lib : trgmsg.c.obj (.bss:_CIOBUF_)
+                  20003318    00000100     (.common:RxFIFO)
+                  20003418    000000a0     (.common:CharacteristicList)
+                  200034b8    000000a0     (.common:__TI_tmpnams)
+                  20003558    00000080     (.common:RecvBuf)
+                  200035d8    00000050     (.common:NotifyCharacteristicList)
+                  20003628    00000008     (.common:Messageb)
+                  20003630    00000008     (.common:parmbuf)
+                  20003638    00000004     (.common:ADCflag)
+                  2000363c    00000004     (.common:Center)
+                  20003640    00000004     (.common:I1)
+                  20003644    00000004     (.common:LPFSum)
+                  20003648    00000004     (.common:LPFSum2)
+                  2000364c    00000004     (.common:LPFSum3)
+                  20003650    00000004     (.common:Left)
+                  20003654    00000004     (.common:Messageindexb)
+                  20003658    00000004     (.common:NoSOFErr)
+                  2000365c    00000004     (.common:Pt)
+                  20003660    00000004     (.common:Pt2)
+                  20003664    00000004     (.common:Pt3)
+                  20003668    00000004     (.common:Right)
+                  2000366c    00000004     (.common:RxFifoLost)
+                  20003670    00000004     (.common:RxGetI)
+                  20003674    00000004     (.common:RxPutI)
+                  20003678    00000004     (.common:Size)
+                  2000367c    00000004     (.common:Switch2)
+                  20003680    00000004     (.common:TimeOutErr)
+                  20003684    00000004     (.common:TimerA1Task)
+                  20003688    00000004     (.common:fcserr)
+                  2000368c    00000004     (.common:nc)
+                  20003690    00000004     (.common:nl)
+                  20003694    00000004     (.common:nr)
+                  20003698    00000002     (.common:Switch1)
+
+.sysmem    0    200036a0    00000400     UNINITIALIZED
+                  200036a0    00000010     rtsv7M4_T_le_v4SPD16_eabi.lib : memory.c.obj (.sysmem)
+                  200036b0    000003f0     --HOLE--
+
+.data      0    20003aa0    00000308     UNINITIALIZED
+                  20003aa0    000000f0     rtsv7M4_T_le_v4SPD16_eabi.lib : defs.c.obj (.data:_ftable)
+                  20003b90    00000078                                   : host_device.c.obj (.data:_device)
+                  20003c08    00000050                                   : host_device.c.obj (.data:_stream)
+                  20003c58    00000025     AP.obj (.data:NPI_SetAdvertisementData)
+                  20003c7d    00000020     AP.obj (.data:NPI_AddCharDescriptor)
+                  20003c9d    0000001e     AP.obj (.data:NPI_SetAdvertisementDataJacki)
+                  20003cbb    0000001c     AP.obj (.data:NPI_GATTSetDeviceName)
+                  20003cd7    00000001     --HOLE--
+                  20003cd8    00000018     Clock.obj (.data)
+                  20003cf0    00000015     AP.obj (.data:NPI_GATTSetDeviceNameJacki)
+                  20003d05    00000015     AP.obj (.data:NPI_ReadConfirmation)
+                  20003d1a    00000014     AP.obj (.data:NPI_SendNotificationIndication)
+                  20003d2e    00000002     --HOLE--
+                  20003d30    00000010     rtsv7M4_T_le_v4SPD16_eabi.lib : defs.c.obj (.data)
+                  20003d40    0000000e     AP.obj (.data:NPI_AddCharValue)
+                  20003d4e    00000002     --HOLE--
+                  20003d50    0000000c     rtsv7M4_T_le_v4SPD16_eabi.lib : exit.c.obj (.data:$O1$$)
+                  20003d5c    00000009     AP.obj (.data:NPI_AddService)
+                  20003d65    00000009     AP.obj (.data:NPI_CCCDUpdatedConfirmation)
+                  20003d6e    00000009     AP.obj (.data:NPI_WriteConfirmation)
+                  20003d77    00000001     --HOLE--
+                  20003d78    00000008     rtsv7M4_T_le_v4SPD16_eabi.lib : _lock.c.obj (.data:$O1$$)
+                  20003d80    00000008                                   : memory.c.obj (.data:$O1$$)
+                  20003d88    00000008     AP.obj (.data)
+                  20003d90    00000008     Robot_BLEmain.obj (.data)
+                  20003d98    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : add_device.c.obj (.data)
+                  20003d9c    00000004                                   : fopen.c.obj (.data)
+                  20003da0    00000004                                   : open.c.obj (.data)
+                  20003da4    00000004     system_msp432p401r.obj (.data)
+
+.stack     0    2000fe00    00000200     UNINITIALIZED
+                  2000fe00    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.stack)
+                  2000fe04    000001fc     --HOLE--
+
+MODULE SUMMARY
+
+       Module                        code    ro data   rw data
+       ------                        ----    -------   -------
+    ..\
+       LPF.obj                       772     0         24640  
+       AP.obj                        4112    64        1236   
+       Nokia5110.obj                 2364    488       1008   
+       UART0.obj                     1724    0         24     
+       UART1.obj                     420     0         536    
+       ADC14.obj                     748     0         0      
+       PWM.obj                       552     0         0      
+       Clock.obj                     480     0         48     
+       Motor.obj                     396     0         0      
+       LaunchPad.obj                 244     0         0      
+       GPIO.obj                      192     0         0      
+       TimerA1.obj                   168     0         8      
+       IRDistance.obj                124     0         0      
+       Bump_port4.obj                120     0         0      
+       CortexM.obj                   36      0         0      
+    +--+-----------------------------+-------+---------+---------+
+       Total:                        12452   552       27500  
+                                                              
+    .\
+       Robot_BLEmain.obj             1920    0         84     
+       system_msp432p401r.obj        812     0         8      
+       startup_msp432p401r_ccs.obj   14      228       0      
+    +--+-----------------------------+-------+---------+---------+
+       Total:                        2746    228       92     
+                                                              
+    C:\ti\ccs910\ccs\tools\compiler\ti-cgt-arm_18.12.2.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib
+       defs.c.obj                    0       0         832    
+       memory.c.obj                  676     0         16     
+       trgmsg.c.obj                  108     0         576    
+       fopen.c.obj                   528     0         8      
+       host_device.c.obj             0       0         400    
+       setvbuf.c.obj                 220     0         0      
+       open.c.obj                    188     0         8      
+       add_device.c.obj              184     0         8      
+       memcpy_t2.asm.obj             156     0         0      
+       memset_t2.asm.obj             122     0         0      
+       fclose.c.obj                  116     0         0      
+       getdevice.c.obj               116     0         0      
+       hostopen.c.obj                96      0         16     
+       copy_decompress_lzss.c.obj    104     0         0      
+       hostlseek.c.obj               104     0         0      
+       hostrename.c.obj              104     0         0      
+       exit.c.obj                    76      0         24     
+       close.c.obj                   92      0         0      
+       hostread.c.obj                88      0         0      
+       hostwrite.c.obj               88      0         0      
+       fflush.c.obj                  76      0         0      
+       autoinit.c.obj                68      0         0      
+       hostclose.c.obj               68      0         0      
+       hostunlink.c.obj              68      0         0      
+       strncpy.c.obj                 54      0         0      
+       boot_cortex_m.c.obj           52      0         0      
+       unlink.c.obj                  44      0         0      
+       write.c.obj                   40      0         0      
+       strcmp.c.obj                  24      0         0      
+       strchr.c.obj                  22      0         0      
+       strcpy.c.obj                  20      0         0      
+       strlen.c.obj                  20      0         0      
+       _lock.c.obj                   2       0         16     
+       copy_decompress_none.c.obj    14      0         0      
+       copy_zero_init.c.obj          12      0         0      
+       pre_init.c.obj                4       0         0      
+    +--+-----------------------------+-------+---------+---------+
+       Total:                        3754    0         1904   
+                                                              
+       Heap:                         0       0         2048   
+       Stack:                        0       0         1024   
+       Linker Generated:             0       324       0      
+    +--+-----------------------------+-------+---------+---------+
+       Grand Total:                  18952   1104      32568  
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 00004e50 records: 2, size/record: 8, table size: 16
+	.data: load addr=00004d18, load size=00000120 bytes, run addr=20003aa0, run size=00000308 bytes, compression=lzss
+	.bss: load addr=00004e48, load size=00000008 bytes, run addr=20000000, run size=0000369a bytes, compression=zero_init
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 00004e38 records: 3, size/record: 4, table size: 12
+	index: 0, handler: __TI_decompress_lzss
+	index: 1, handler: __TI_decompress_none
+	index: 2, handler: __TI_zero_init
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name                           
+-------   ----                           
+00002f99  ADC0_InitSWTriggerCh12         
+00003009  ADC0_InitSWTriggerCh17_12_16   
+000030b9  ADC0_InitSWTriggerCh19         
+00002e9d  ADC0_InitSWTriggerCh6          
+00002f0d  ADC0_InitSWTriggerCh67         
+00004ad1  ADC14_IRQHandler               
+00002fe9  ADC_In12                       
+00003079  ADC_In17_12_16                 
+00003109  ADC_In19                       
+00002eed  ADC_In6                        
+00002f63  ADC_In67                       
+20003638  ADCflag                        
+00004ad1  AES256_IRQHandler              
+00000745  AP_AddCharacteristic           
+00000901  AP_AddNotifyCharacteristic     
+000006ed  AP_AddService                  
+00000e11  AP_BackgroundProcess           
+00000289  AP_EchoReceived                
+0000021d  AP_EchoSendMessage             
+000006d7  AP_GetNotifyCCCD               
+000001f3  AP_GetSize                     
+00000ce5  AP_GetStatus                   
+00000d1d  AP_GetVersion                  
+0000010d  AP_Init                        
+000004ad  AP_RecvMessage                 
+00000689  AP_RecvStatus                  
+00000725  AP_RegisterService             
+000000e5  AP_Reset                       
+00000311  AP_SendMessage                 
+00000697  AP_SendMessageResponse         
+00000b2d  AP_SendNotification            
+00000c2d  AP_StartAdvertisement          
+00000c81  AP_StartAdvertisementJacki     
+00001bd1  BLE_Init                       
+00004301  Bump_Init                      
+00004335  Bump_Read                      
+00004ad1  BusFault_Handler               
+00001bad  Button1                        
+00001bbf  Button2                        
+00004aeb  C$$EXIT                        
+00004863  C$$IO$$                        
+00004ad1  COMP_E0_IRQHandler             
+00004ad1  COMP_E1_IRQHandler             
+20003ce0  CPMwait                        
+00004ad1  CS_IRQHandler                  
+2000363c  Center                         
+000041b5  CenterConvert                  
+20003d88  CharacteristicCount            
+20003418  CharacteristicList             
+20003cd8  ClockFrequency                 
+00003505  Clock_Delay1ms                 
+000034db  Clock_Delay1us                 
+000034c7  Clock_GetFreq                  
+000033b1  Clock_Init48MHz                
+20003cec  Crystalstable                  
+00004ad1  DMA_ERR_IRQHandler             
+00004ad1  DMA_INT0_IRQHandler            
+00004ad1  DMA_INT1_IRQHandler            
+00004ad1  DMA_INT2_IRQHandler            
+00004ad1  DMA_INT3_IRQHandler            
+00004ad1  DebugMon_Handler               
+00004ad1  Default_Handler                
+00004a21  DisableInterrupts              
+00004ad1  EUSCIA0_IRQHandler             
+00004ad1  EUSCIA1_IRQHandler             
+000036b9  EUSCIA2_IRQHandler             
+000036b9  EUSCIA2_IRQHandler             
+00004ad1  EUSCIA3_IRQHandler             
+00004ad1  EUSCIB0_IRQHandler             
+00004ad1  EUSCIB1_IRQHandler             
+00004ad1  EUSCIB2_IRQHandler             
+00004ad1  EUSCIB3_IRQHandler             
+00004a27  EnableInterrupts               
+00004a37  EndCritical                    
+00004ad1  FLCTL_IRQHandler               
+00004ad1  FPU_IRQHandler                 
+00003d79  GPIO_Init                      
+00004cf3  HCI_EXT_ResetSystemCmd         
+00004725  HOSTclose                      
+000043ed  HOSTlseek                      
+00004525  HOSTopen                       
+000045e1  HOSTread                       
+00004455  HOSTrename                     
+00004769  HOSTunlink                     
+00004639  HOSTwrite                      
+00004ad1  HardFault_Handler              
+20003640  I1                             
+20003ce8  IFlags                         
+00001ca9  IRsampling                     
+20003d91  JackiBumpSensor                
+20003d90  JackiCommand                   
+20003d92  JackiSpeed                     
+20003644  LPFSum                         
+20003648  LPFSum2                        
+2000364c  LPFSum3                        
+00002cad  LPF_Calc                       
+00002d51  LPF_Calc2                      
+00002e15  LPF_Calc3                      
+00002bed  LPF_Calc_old                   
+00002c4f  LPF_Init                       
+00002cfd  LPF_Init2                      
+00002db3  LPF_Init3                      
+00002b99  LPF_Init_old                   
+000039cd  LaunchPad_Init                 
+00003a3d  LaunchPad_Input                
+00003a57  LaunchPad_LED                  
+00003a75  LaunchPad_Output               
+20003650  Left                           
+0000418d  LeftConvert                    
+00004cfc  Masks                          
+00004ad1  MemManage_Handler              
+20003628  Messageb                       
+20003654  Messageindexb                  
+00003863  Motor_Backward                 
+0000379b  Motor_Forward                  
+00003735  Motor_Init                     
+0000381d  Motor_Left                     
+000037d7  Motor_Right                    
+00003787  Motor_Stop                     
+00004ad1  NMI_Handler                    
+20003c7d  NPI_AddCharDescriptor          
+20003d40  NPI_AddCharValue               
+20003d5c  NPI_AddService                 
+20003d65  NPI_CCCDUpdatedConfirmation    
+20003cbb  NPI_GATTSetDeviceName          
+20003cf0  NPI_GATTSetDeviceNameJacki     
+00004d04  NPI_GetStatus                  
+00004d0a  NPI_GetVersion                 
+20003d05  NPI_ReadConfirmation           
+00004d10  NPI_Register                   
+20003d1a  NPI_SendNotificationIndication 
+00004ce2  NPI_SetAdvertisement1          
+20003c58  NPI_SetAdvertisementData       
+20003c9d  NPI_SetAdvertisementDataJacki  
+00004cce  NPI_StartAdvertisement         
+20003d6e  NPI_WriteConfirmation          
+20003658  NoSOFErr                       
+00001765  Nokia5110_Clear                
+000019a7  Nokia5110_ClearBuffer          
+000019db  Nokia5110_ClrPxl               
+000019d1  Nokia5110_DisplayBuffer        
+00001791  Nokia5110_DrawFullImage        
+0000114b  Nokia5110_Init                 
+000011f5  Nokia5110_OutChar              
+00001465  Nokia5110_OutSDec              
+00001235  Nokia5110_OutString            
+00001253  Nokia5110_OutUDec              
+0000169b  Nokia5110_OutUFix1             
+000017c3  Nokia5110_PrintBMP             
+00001729  Nokia5110_SetCursor            
+00001a01  Nokia5110_SetPxl               
+20003d8c  NotifyCharacteristicCount      
+200035d8  NotifyCharacteristicList       
+00001a5d  OutValue                       
+00004ad1  PCM_IRQHandler                 
+00004ad1  PORT1_IRQHandler               
+00004ad1  PORT2_IRQHandler               
+00004ad1  PORT3_IRQHandler               
+00004ad1  PORT4_IRQHandler               
+00004ad1  PORT5_IRQHandler               
+00004ad1  PORT6_IRQHandler               
+00004ad1  PSS_IRQHandler                 
+00003273  PWM_Duty1                      
+00003293  PWM_Duty2                      
+00003337  PWM_Duty3                      
+00003357  PWM_Duty4                      
+00003189  PWM_Init1                      
+000031ef  PWM_Init12                     
+000032b3  PWM_Init34                     
+00004ad1  PendSV_Handler                 
+20003ce4  Postwait                       
+20003cdc  Prewait                        
+2000365c  Pt                             
+20003660  Pt2                            
+20003664  Pt3                            
+00004ad1  RTC_C_IRQHandler               
+00001a71  ReadCommand                    
+00001a7f  ReadJackiBumpSensor            
+00001b8d  ReadJackiSpeed                 
+20003558  RecvBuf                        
+00004ac5  Reset_Handler                  
+20003668  Right                          
+000041dd  RightConvert                   
+00001a95  RunJacki                       
+20003318  RxFIFO                         
+2000366c  RxFifoLost                     
+000035e9  RxFifo_Get                     
+00003591  RxFifo_Init                    
+000035a3  RxFifo_Put                     
+20003670  RxGetI                         
+20003674  RxPutI                         
+00004ad1  SVC_Handler                    
+20003000  Screen                         
+20003678  Size                           
+00004a2d  StartCritical                  
+20003698  Switch1                        
+2000367c  Switch2                        
+00004ad1  SysTick_Handler                
+20003da4  SystemCoreClock                
+0000286d  SystemCoreClockUpdate          
+00002ae1  SystemInit                     
+00004ad1  T32_INT1_IRQHandler            
+00004ad1  T32_INT2_IRQHandler            
+00004ad1  T32_INTC_IRQHandler            
+00004ad1  TA0_0_IRQHandler               
+00004ad1  TA0_N_IRQHandler               
+0000401f  TA1_0_IRQHandler               
+0000401f  TA1_0_IRQHandler               
+00004ad1  TA1_N_IRQHandler               
+00004ad1  TA2_0_IRQHandler               
+00004ad1  TA2_N_IRQHandler               
+00004ad1  TA3_0_IRQHandler               
+00004ad1  TA3_N_IRQHandler               
+00001a31  TestMotor                      
+0000111f  Testlcdcommandwrite            
+20003680  TimeOutErr                     
+20003684  TimerA1Task                    
+00003fad  TimerA1_Init                   
+0000400b  TimerA1_Stop                   
+000021f7  UART0_InChar                   
+00002681  UART0_InString                 
+00002241  UART0_InUDec                   
+00002535  UART0_InUHex                   
+000021b1  UART0_Init                     
+000027e1  UART0_Initprintf               
+00002207  UART0_OutChar                  
+00002223  UART0_OutString                
+000022c5  UART0_OutUDec                  
+00002431  UART0_OutUDec4                 
+00002485  UART0_OutUDec5                 
+000024c1  UART0_OutUFix1                 
+000024e9  UART0_OutUFix2                 
+000025f9  UART0_OutUHex                  
+00002665  UART0_OutUHex2                 
+000036ed  UART1_FinishOutput             
+0000368b  UART1_InChar                   
+0000361f  UART1_InStatus                 
+0000362f  UART1_Init                     
+0000369d  UART1_OutChar                  
+000036cf  UART1_OutString                
+00004ad1  UsageFault_Handler             
+4000480c  WDTCTL_SYM                     
+00004ad1  WDT_A_IRQHandler               
+00004a3f  WaitForInterrupt               
+00001b7b  WriteCommand                   
+00001b9b  WriteJackiSpeed                
+200031f8  __CIOBUF_                      
+20010000  __STACK_END                    
+00000200  __STACK_SIZE                   
+00000400  __SYSMEM_SIZE                  
+00004e50  __TI_CINIT_Base                
+00004e60  __TI_CINIT_Limit               
+00004e38  __TI_Handler_Table_Base        
+00004e44  __TI_Handler_Table_Limit       
+000047ad  __TI_auto_init_nobinit_nopinit 
+000048a5  __TI_cleanup                   
+20003d50  __TI_cleanup_ptr               
+00004379  __TI_closefile                 
+000044bd  __TI_decompress_lzss           
+00004ab7  __TI_decompress_none           
+00004691  __TI_doflush                   
+20003d54  __TI_dtors_ptr                 
+20003d58  __TI_enable_exit_profile_output
+20003d30  __TI_ft_end                    
+ffffffff  __TI_pprof_out_hndl            
+ffffffff  __TI_prof_data_size            
+ffffffff  __TI_prof_data_start           
+000048d9  __TI_readmsg                   
+00000000  __TI_static_base__             
+200034b8  __TI_tmpnams                   
+00004835  __TI_writemsg                  
+00004ad3  __TI_zero_init                 
+00004285  __aeabi_memclr                 
+00004285  __aeabi_memclr4                
+00004285  __aeabi_memclr8                
+000040f1  __aeabi_memcpy                 
+000040f1  __aeabi_memcpy4                
+000040f1  __aeabi_memcpy8                
+00004287  __aeabi_memset                 
+00004287  __aeabi_memset4                
+00004287  __aeabi_memset8                
+20003d3c  __aeabi_stderr                 
+20003d34  __aeabi_stdin                  
+20003d38  __aeabi_stdout                 
+ffffffff  __binit__                      
+ffffffff  __c_args__                     
+UNDEFED   __mpu_init                     
+2000fe00  __stack                        
+0000490d  _c_int00_noargs                
+20003b90  _device                        
+20003aa0  _ftable                        
+20003d78  _lock                          
+000042ff  _nop                           
+20003c08  _stream                        
+200036a0  _sys_memory                    
+UNDEFED   _system_post_cinit             
+00004ae7  _system_pre_init               
+20003d7c  _unlock                        
+00004aeb  abort                          
+00003ef5  add_device                     
+00003ac1  aligned_alloc                  
+ffffffff  binit                          
+00004585  close                          
+000034cd  delay                          
+000046dd  exit                           
+20003688  fcserr                         
+0000271b  ferror                         
+000026fb  fgetc                          
+00004975  finddevice                     
+00004055  fopen                          
+00003bb5  free                           
+00004941  freopen                        
+000047f1  getdevice                      
+00000000  interruptVectors               
+00001e51  main                           
+00004adf  malloc                         
+00003ac1  memalign                       
+000040f1  memcpy                         
+0000428d  memset                         
+2000368c  nc                             
+20003690  nl                             
+20003694  nr                             
+00003e39  open                           
+0000263d  outnibble                      
+20003630  parmbuf                        
+000049a5  remove                         
+00003c9d  setvbuf                        
+00004a79  strchr                         
+00004a61  strcmp                         
+00004a8f  strcpy                         
+00004aa3  strlen                         
+0000486d  strncpy                        
+20003d94  time                           
+00002739  uart_close                     
+000027b7  uart_lseek                     
+00002729  uart_open                      
+0000274b  uart_read                      
+000027d3  uart_rename                    
+000027c7  uart_unlink                    
+00002775  uart_write                     
+000049a5  unlink                         
+000049f9  write                          
+20000000  x                              
+20001000  x2                             
+20002000  x3                             
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name                           
+-------   ----                           
+00000000  __TI_static_base__             
+00000000  interruptVectors               
+000000e5  AP_Reset                       
+0000010d  AP_Init                        
+000001f3  AP_GetSize                     
+00000200  __STACK_SIZE                   
+0000021d  AP_EchoSendMessage             
+00000289  AP_EchoReceived                
+00000311  AP_SendMessage                 
+00000400  __SYSMEM_SIZE                  
+000004ad  AP_RecvMessage                 
+00000689  AP_RecvStatus                  
+00000697  AP_SendMessageResponse         
+000006d7  AP_GetNotifyCCCD               
+000006ed  AP_AddService                  
+00000725  AP_RegisterService             
+00000745  AP_AddCharacteristic           
+00000901  AP_AddNotifyCharacteristic     
+00000b2d  AP_SendNotification            
+00000c2d  AP_StartAdvertisement          
+00000c81  AP_StartAdvertisementJacki     
+00000ce5  AP_GetStatus                   
+00000d1d  AP_GetVersion                  
+00000e11  AP_BackgroundProcess           
+0000111f  Testlcdcommandwrite            
+0000114b  Nokia5110_Init                 
+000011f5  Nokia5110_OutChar              
+00001235  Nokia5110_OutString            
+00001253  Nokia5110_OutUDec              
+00001465  Nokia5110_OutSDec              
+0000169b  Nokia5110_OutUFix1             
+00001729  Nokia5110_SetCursor            
+00001765  Nokia5110_Clear                
+00001791  Nokia5110_DrawFullImage        
+000017c3  Nokia5110_PrintBMP             
+000019a7  Nokia5110_ClearBuffer          
+000019d1  Nokia5110_DisplayBuffer        
+000019db  Nokia5110_ClrPxl               
+00001a01  Nokia5110_SetPxl               
+00001a31  TestMotor                      
+00001a5d  OutValue                       
+00001a71  ReadCommand                    
+00001a7f  ReadJackiBumpSensor            
+00001a95  RunJacki                       
+00001b7b  WriteCommand                   
+00001b8d  ReadJackiSpeed                 
+00001b9b  WriteJackiSpeed                
+00001bad  Button1                        
+00001bbf  Button2                        
+00001bd1  BLE_Init                       
+00001ca9  IRsampling                     
+00001e51  main                           
+000021b1  UART0_Init                     
+000021f7  UART0_InChar                   
+00002207  UART0_OutChar                  
+00002223  UART0_OutString                
+00002241  UART0_InUDec                   
+000022c5  UART0_OutUDec                  
+00002431  UART0_OutUDec4                 
+00002485  UART0_OutUDec5                 
+000024c1  UART0_OutUFix1                 
+000024e9  UART0_OutUFix2                 
+00002535  UART0_InUHex                   
+000025f9  UART0_OutUHex                  
+0000263d  outnibble                      
+00002665  UART0_OutUHex2                 
+00002681  UART0_InString                 
+000026fb  fgetc                          
+0000271b  ferror                         
+00002729  uart_open                      
+00002739  uart_close                     
+0000274b  uart_read                      
+00002775  uart_write                     
+000027b7  uart_lseek                     
+000027c7  uart_unlink                    
+000027d3  uart_rename                    
+000027e1  UART0_Initprintf               
+0000286d  SystemCoreClockUpdate          
+00002ae1  SystemInit                     
+00002b99  LPF_Init_old                   
+00002bed  LPF_Calc_old                   
+00002c4f  LPF_Init                       
+00002cad  LPF_Calc                       
+00002cfd  LPF_Init2                      
+00002d51  LPF_Calc2                      
+00002db3  LPF_Init3                      
+00002e15  LPF_Calc3                      
+00002e9d  ADC0_InitSWTriggerCh6          
+00002eed  ADC_In6                        
+00002f0d  ADC0_InitSWTriggerCh67         
+00002f63  ADC_In67                       
+00002f99  ADC0_InitSWTriggerCh12         
+00002fe9  ADC_In12                       
+00003009  ADC0_InitSWTriggerCh17_12_16   
+00003079  ADC_In17_12_16                 
+000030b9  ADC0_InitSWTriggerCh19         
+00003109  ADC_In19                       
+00003189  PWM_Init1                      
+000031ef  PWM_Init12                     
+00003273  PWM_Duty1                      
+00003293  PWM_Duty2                      
+000032b3  PWM_Init34                     
+00003337  PWM_Duty3                      
+00003357  PWM_Duty4                      
+000033b1  Clock_Init48MHz                
+000034c7  Clock_GetFreq                  
+000034cd  delay                          
+000034db  Clock_Delay1us                 
+00003505  Clock_Delay1ms                 
+00003591  RxFifo_Init                    
+000035a3  RxFifo_Put                     
+000035e9  RxFifo_Get                     
+0000361f  UART1_InStatus                 
+0000362f  UART1_Init                     
+0000368b  UART1_InChar                   
+0000369d  UART1_OutChar                  
+000036b9  EUSCIA2_IRQHandler             
+000036b9  EUSCIA2_IRQHandler             
+000036cf  UART1_OutString                
+000036ed  UART1_FinishOutput             
+00003735  Motor_Init                     
+00003787  Motor_Stop                     
+0000379b  Motor_Forward                  
+000037d7  Motor_Right                    
+0000381d  Motor_Left                     
+00003863  Motor_Backward                 
+000039cd  LaunchPad_Init                 
+00003a3d  LaunchPad_Input                
+00003a57  LaunchPad_LED                  
+00003a75  LaunchPad_Output               
+00003ac1  aligned_alloc                  
+00003ac1  memalign                       
+00003bb5  free                           
+00003c9d  setvbuf                        
+00003d79  GPIO_Init                      
+00003e39  open                           
+00003ef5  add_device                     
+00003fad  TimerA1_Init                   
+0000400b  TimerA1_Stop                   
+0000401f  TA1_0_IRQHandler               
+0000401f  TA1_0_IRQHandler               
+00004055  fopen                          
+000040f1  __aeabi_memcpy                 
+000040f1  __aeabi_memcpy4                
+000040f1  __aeabi_memcpy8                
+000040f1  memcpy                         
+0000418d  LeftConvert                    
+000041b5  CenterConvert                  
+000041dd  RightConvert                   
+00004285  __aeabi_memclr                 
+00004285  __aeabi_memclr4                
+00004285  __aeabi_memclr8                
+00004287  __aeabi_memset                 
+00004287  __aeabi_memset4                
+00004287  __aeabi_memset8                
+0000428d  memset                         
+000042ff  _nop                           
+00004301  Bump_Init                      
+00004335  Bump_Read                      
+00004379  __TI_closefile                 
+000043ed  HOSTlseek                      
+00004455  HOSTrename                     
+000044bd  __TI_decompress_lzss           
+00004525  HOSTopen                       
+00004585  close                          
+000045e1  HOSTread                       
+00004639  HOSTwrite                      
+00004691  __TI_doflush                   
+000046dd  exit                           
+00004725  HOSTclose                      
+00004769  HOSTunlink                     
+000047ad  __TI_auto_init_nobinit_nopinit 
+000047f1  getdevice                      
+00004835  __TI_writemsg                  
+00004863  C$$IO$$                        
+0000486d  strncpy                        
+000048a5  __TI_cleanup                   
+000048d9  __TI_readmsg                   
+0000490d  _c_int00_noargs                
+00004941  freopen                        
+00004975  finddevice                     
+000049a5  remove                         
+000049a5  unlink                         
+000049f9  write                          
+00004a21  DisableInterrupts              
+00004a27  EnableInterrupts               
+00004a2d  StartCritical                  
+00004a37  EndCritical                    
+00004a3f  WaitForInterrupt               
+00004a61  strcmp                         
+00004a79  strchr                         
+00004a8f  strcpy                         
+00004aa3  strlen                         
+00004ab7  __TI_decompress_none           
+00004ac5  Reset_Handler                  
+00004ad1  ADC14_IRQHandler               
+00004ad1  AES256_IRQHandler              
+00004ad1  BusFault_Handler               
+00004ad1  COMP_E0_IRQHandler             
+00004ad1  COMP_E1_IRQHandler             
+00004ad1  CS_IRQHandler                  
+00004ad1  DMA_ERR_IRQHandler             
+00004ad1  DMA_INT0_IRQHandler            
+00004ad1  DMA_INT1_IRQHandler            
+00004ad1  DMA_INT2_IRQHandler            
+00004ad1  DMA_INT3_IRQHandler            
+00004ad1  DebugMon_Handler               
+00004ad1  Default_Handler                
+00004ad1  EUSCIA0_IRQHandler             
+00004ad1  EUSCIA1_IRQHandler             
+00004ad1  EUSCIA3_IRQHandler             
+00004ad1  EUSCIB0_IRQHandler             
+00004ad1  EUSCIB1_IRQHandler             
+00004ad1  EUSCIB2_IRQHandler             
+00004ad1  EUSCIB3_IRQHandler             
+00004ad1  FLCTL_IRQHandler               
+00004ad1  FPU_IRQHandler                 
+00004ad1  HardFault_Handler              
+00004ad1  MemManage_Handler              
+00004ad1  NMI_Handler                    
+00004ad1  PCM_IRQHandler                 
+00004ad1  PORT1_IRQHandler               
+00004ad1  PORT2_IRQHandler               
+00004ad1  PORT3_IRQHandler               
+00004ad1  PORT4_IRQHandler               
+00004ad1  PORT5_IRQHandler               
+00004ad1  PORT6_IRQHandler               
+00004ad1  PSS_IRQHandler                 
+00004ad1  PendSV_Handler                 
+00004ad1  RTC_C_IRQHandler               
+00004ad1  SVC_Handler                    
+00004ad1  SysTick_Handler                
+00004ad1  T32_INT1_IRQHandler            
+00004ad1  T32_INT2_IRQHandler            
+00004ad1  T32_INTC_IRQHandler            
+00004ad1  TA0_0_IRQHandler               
+00004ad1  TA0_N_IRQHandler               
+00004ad1  TA1_N_IRQHandler               
+00004ad1  TA2_0_IRQHandler               
+00004ad1  TA2_N_IRQHandler               
+00004ad1  TA3_0_IRQHandler               
+00004ad1  TA3_N_IRQHandler               
+00004ad1  UsageFault_Handler             
+00004ad1  WDT_A_IRQHandler               
+00004ad3  __TI_zero_init                 
+00004adf  malloc                         
+00004ae7  _system_pre_init               
+00004aeb  C$$EXIT                        
+00004aeb  abort                          
+00004cce  NPI_StartAdvertisement         
+00004ce2  NPI_SetAdvertisement1          
+00004cf3  HCI_EXT_ResetSystemCmd         
+00004cfc  Masks                          
+00004d04  NPI_GetStatus                  
+00004d0a  NPI_GetVersion                 
+00004d10  NPI_Register                   
+00004e38  __TI_Handler_Table_Base        
+00004e44  __TI_Handler_Table_Limit       
+00004e50  __TI_CINIT_Base                
+00004e60  __TI_CINIT_Limit               
+20000000  x                              
+20001000  x2                             
+20002000  x3                             
+20003000  Screen                         
+200031f8  __CIOBUF_                      
+20003318  RxFIFO                         
+20003418  CharacteristicList             
+200034b8  __TI_tmpnams                   
+20003558  RecvBuf                        
+200035d8  NotifyCharacteristicList       
+20003628  Messageb                       
+20003630  parmbuf                        
+20003638  ADCflag                        
+2000363c  Center                         
+20003640  I1                             
+20003644  LPFSum                         
+20003648  LPFSum2                        
+2000364c  LPFSum3                        
+20003650  Left                           
+20003654  Messageindexb                  
+20003658  NoSOFErr                       
+2000365c  Pt                             
+20003660  Pt2                            
+20003664  Pt3                            
+20003668  Right                          
+2000366c  RxFifoLost                     
+20003670  RxGetI                         
+20003674  RxPutI                         
+20003678  Size                           
+2000367c  Switch2                        
+20003680  TimeOutErr                     
+20003684  TimerA1Task                    
+20003688  fcserr                         
+2000368c  nc                             
+20003690  nl                             
+20003694  nr                             
+20003698  Switch1                        
+200036a0  _sys_memory                    
+20003aa0  _ftable                        
+20003b90  _device                        
+20003c08  _stream                        
+20003c58  NPI_SetAdvertisementData       
+20003c7d  NPI_AddCharDescriptor          
+20003c9d  NPI_SetAdvertisementDataJacki  
+20003cbb  NPI_GATTSetDeviceName          
+20003cd8  ClockFrequency                 
+20003cdc  Prewait                        
+20003ce0  CPMwait                        
+20003ce4  Postwait                       
+20003ce8  IFlags                         
+20003cec  Crystalstable                  
+20003cf0  NPI_GATTSetDeviceNameJacki     
+20003d05  NPI_ReadConfirmation           
+20003d1a  NPI_SendNotificationIndication 
+20003d30  __TI_ft_end                    
+20003d34  __aeabi_stdin                  
+20003d38  __aeabi_stdout                 
+20003d3c  __aeabi_stderr                 
+20003d40  NPI_AddCharValue               
+20003d50  __TI_cleanup_ptr               
+20003d54  __TI_dtors_ptr                 
+20003d58  __TI_enable_exit_profile_output
+20003d5c  NPI_AddService                 
+20003d65  NPI_CCCDUpdatedConfirmation    
+20003d6e  NPI_WriteConfirmation          
+20003d78  _lock                          
+20003d7c  _unlock                        
+20003d88  CharacteristicCount            
+20003d8c  NotifyCharacteristicCount      
+20003d90  JackiCommand                   
+20003d91  JackiBumpSensor                
+20003d92  JackiSpeed                     
+20003d94  time                           
+20003da4  SystemCoreClock                
+2000fe00  __stack                        
+20010000  __STACK_END                    
+4000480c  WDTCTL_SYM                     
+ffffffff  __TI_pprof_out_hndl            
+ffffffff  __TI_prof_data_size            
+ffffffff  __TI_prof_data_start           
+ffffffff  __binit__                      
+ffffffff  __c_args__                     
+ffffffff  binit                          
+UNDEFED   __mpu_init                     
+UNDEFED   _system_post_cinit             
+
+[345 symbols]

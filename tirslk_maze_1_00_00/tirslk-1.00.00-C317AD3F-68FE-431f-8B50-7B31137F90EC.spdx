@@ -1,0 +1,2822 @@
+# Document Information
+
+SPDXVersion: SPDX-1.2
+DataLicense: CC0-1.0
+DocumentComment: <text>Generated with ScanCode and provided on an "AS IS" BASIS, WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied. No content created from
+ScanCode should be considered or used as legal advice. 
+ScanCode is a free software code scanning tool from nexB Inc. and others.
+Visit https://github.com/nexB/scancode-toolkit/ for support and download.</text>
+
+
+# Creation Info
+
+Creator: Tool: ScanCode 2.2.1
+Created: 2018-02-07T16:33:38Z
+Creator: Organization: Texas Instruments
+CreatorComment:  <text>
+This SPDX document is primarily an electronic scan (with some editing) of the source used by Texas Instruments to build this package. 
+The scan was only run on source files (.c,.h,.asm, etc).
+While every attempt has been made to ensure its accuracy, machine translations are not always perfect. 
+In addition, it is possible that some files have been modified prior to its release and their checksums may not match those in this document.
+</text>
+
+
+# Package
+
+PackageName: Texas Instruments Robotics Software Learning Kit
+PackageVersion: 1_00_00
+PackageSupplier:  Texas Instruments
+PackageSourceInfo: <text>This package uses sources from Texas Instruments and Jonathon Valvano.</text>
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: 4f274e063589ec1bb0a2dad650432d0a906377f8
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause
+PackageLicenseConcluded: BSD-3-Clause AND BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageCopyrightText: <text>Copyright (c) 1996-2015 Texas Instruments Incorporated
+Copyright (c) 1996-2015 Texas Instruments Incorporated SetParametersForSolution SetParametersForSolution
+Copyright (c) 1996-2015 Texas Instruments Incorporated Sidemax Sidemax
+Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+Copyright (c) 2017, Jonathan Valvano
+Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+Jonathan Valvano, copyright (c) 2016
+Jonathan Valvano, copyright (c) 2017
+Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2016 Embedded Systems Real-Time Operating Systems
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ADCSWTrigger/ADCSWTriggermain.c
+FileChecksum: SHA1: f5a852abd3961037da04e96d872d74152802fa5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ADCSWTrigger/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ADCSWTrigger/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ADCSWTrigger/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ApplicationProcessor/ApplicationProcessor.c
+FileChecksum: SHA1: a576bd08262f6721dcde83d8a2db0e88efc96d39
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ApplicationProcessor/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ApplicationProcessor/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ApplicationProcessor/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Competition/Robotmain.c
+FileChecksum: SHA1: fa9043285894e50bb86109aa8b1abbf9a9266f55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Competition/msp432p401r.cmd
+FileChecksum: SHA1: 49649a8bb2a63f5a5f3e81a59d1efa898ef2d6d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Competition/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Competition/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Competition_BLE/Robot_BLEmain.c
+FileChecksum: SHA1: a72cb36d44b84e6d93f4d2eaba0d00f38b7999c8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Competition_BLE/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Competition_BLE/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Competition_BLE/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/EdgeInterrupt/EdgeInterrupt.c
+FileChecksum: SHA1: a0bee7985d08b243a55469f9b50bf6075becad2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/EdgeInterrupt/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/EdgeInterrupt/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/EdgeInterrupt/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Flash/FlashTestMain.c
+FileChecksum: SHA1: 952abc459bfe18763a39cbfd71aa4e49a4a5a2ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2016 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2016
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Flash/Scoreboard.c
+FileChecksum: SHA1: 26be6bad0baa84793cc369259dd36d6a39c04402
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2016 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2016
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Flash/Scoreboard.h
+FileChecksum: SHA1: f0a76993c58e5669b128cc5ec9833df5dc7a01fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Flash/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Flash/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Flash/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/GPIO/GPIOmain.c
+FileChecksum: SHA1: 2e973351e4efa6dde8d90c8ec5e26e98c74ff658
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/GPIO/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/GPIO/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/GPIO/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/InputOutput/InputOutput.c
+FileChecksum: SHA1: d2f981716adc772f8e810e5bb086dfd07d6cf7b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/InputOutput/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/InputOutput/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/InputOutput/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Jacki/Jackimain.c
+FileChecksum: SHA1: 73566c68edee1ba1ffc4e48d0eb1950c918b9fda
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Jacki/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Jacki/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Jacki/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Jacki_FSM/JackiFSMmain.c
+FileChecksum: SHA1: 1955ac027edb0c9faa35f0f14f598313f9611b08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Jacki_FSM/msp432p401r.cmd
+FileChecksum: SHA1: 12f7dd555f9c79b3f69328b927c275f597d81f61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Jacki_FSM/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Jacki_FSM/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab03_Assembly/Lab03_Assemblymain.asm
+FileChecksum: SHA1: 9ce9196caad9345f6e1e97050bdd2bae8281aefc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab03_Assembly/convert.asm
+FileChecksum: SHA1: bffb88fbe5e03a9ecc3b2534b69eabcf98276a00
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab03_Assembly/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab03_Assembly/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab03_Assembly/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab04_SoftwareDesign/Lab04_SoftwareDesignmain.c
+FileChecksum: SHA1: d0310d2c8309ab28db0d7d228ba6825b164fb827
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab04_SoftwareDesign/Solution.obj
+FileChecksum: SHA1: d7d5e5710ebaa67df1825b5b17599c581d7421bd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: <text>Copyright (c) 1996-2015 Texas Instruments Incorporated
+Copyright (c) 1996-2015 Texas Instruments Incorporated Sidemax Sidemax
+Copyright (c) 1996-2015 Texas Instruments Incorporated SetParametersForSolution SetParametersForSolution
+Copyright (c) 1996-2015 Texas Instruments Incorporated
+Copyright (c) 1996-2015 Texas Instruments Incorporated
+Copyright (c) 1996-2015 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab04_SoftwareDesign/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab04_SoftwareDesign/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab04_SoftwareDesign/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab06_GPIO/Lab06_GPIOmain.c
+FileChecksum: SHA1: 737fa98da2aad2b19acdd082b1be2fbcf2fad6cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab06_GPIO/msp432p401r.cmd
+FileChecksum: SHA1: 12f7dd555f9c79b3f69328b927c275f597d81f61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab06_GPIO/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab06_GPIO/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab07_FSM/Lab07_FSMmain.c
+FileChecksum: SHA1: af4c7848e66f10b34effa07dcad96537d5b4ce65
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab07_FSM/msp432p401r.cmd
+FileChecksum: SHA1: 12f7dd555f9c79b3f69328b927c275f597d81f61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab07_FSM/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab07_FSM/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab08_Switches_LED/Lab08_LED_Switchesmain.c
+FileChecksum: SHA1: 4784b76991fa5d1ec6e37d301dfca96a47a207ff
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab08_Switches_LED/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab08_Switches_LED/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab08_Switches_LED/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab09_SysTick/Lab09_SysTickmain.c
+FileChecksum: SHA1: fd381891cf66d2de8dcdeca74eadb8054b20d651
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab09_SysTick/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab09_SysTick/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab09_SysTick/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab10_Debug/Lab10_Debugmain.c
+FileChecksum: SHA1: 0c310e8ce8ceb50fb6557ec5923c7ec289b45389
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab10_Debug/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab10_Debug/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab10_Debug/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab11_LCD/Lab11_LCDmain.c
+FileChecksum: SHA1: 426a6a790e9488e173cfb2fe19246f75b3bec52f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab11_LCD/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab11_LCD/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab11_LCD/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab12_Motors/Lab12_Motorsmain.c
+FileChecksum: SHA1: 7b6fae469ce9eb62d2270b62153679318e4ddfe7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab12_Motors/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab12_Motors/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab12_Motors/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab13_Timers/Lab13_Timersmain.c
+FileChecksum: SHA1: 55673b66a51705d5684ad677ceb3d99893bbae95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab13_Timers/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab13_Timers/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab13_Timers/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab14_EdgeInterrupts/Lab14_EdgeInterruptsmain.c
+FileChecksum: SHA1: 9f170ca3d2a107dfc8603c2953412afb1f355dc0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab14_EdgeInterrupts/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab14_EdgeInterrupts/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab14_EdgeInterrupts/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab15_ADC/Lab15_ADCmain.c
+FileChecksum: SHA1: d8df42a00f90daa9e9e1c0f80fda47fa660ff2a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab15_ADC/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab15_ADC/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab15_ADC/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab16_Tach/Lab16_Tachmain.c
+FileChecksum: SHA1: 046db32f95eb174f8267b69dc4c221de75ed6dd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab16_Tach/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab16_Tach/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab16_Tach/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab17_Control/Lab17_Control.c
+FileChecksum: SHA1: 5d4f94fb3137c17961dc21aa43567dc8eca5ac40
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab17_Control/msp432p401r.cmd
+FileChecksum: SHA1: 49649a8bb2a63f5a5f3e81a59d1efa898ef2d6d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab17_Control/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab17_Control/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab18_UART/Lab18_UARTmain.c
+FileChecksum: SHA1: 37d3861d2831ca66f85ae8ad9caf7f94eb0493e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab18_UART/msp432p401r.cmd
+FileChecksum: SHA1: 49649a8bb2a63f5a5f3e81a59d1efa898ef2d6d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab18_UART/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab18_UART/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab19_BLE/Lab19_TestMain.c
+FileChecksum: SHA1: be1f0f7fb502219e84df692690ec6db38bf0d417
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab19_BLE/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab19_BLE/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Lab19_BLE/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/LineFollowFSM/LineFollowFSMmain.c
+FileChecksum: SHA1: fa130d884333db80d671c55a8b4606ee4bd53b04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/LineFollowFSM/msp432p401r.cmd
+FileChecksum: SHA1: 12f7dd555f9c79b3f69328b927c275f597d81f61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/LineFollowFSM/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/LineFollowFSM/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/LinearInterpolation_asm/LinearInterpolation.asm
+FileChecksum: SHA1: 34c0d2a806d52318c6a6fae882e87fdec42aa6b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/LinearInterpolation_asm/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/LinearInterpolation_asm/sin.asm
+FileChecksum: SHA1: 7dc11b0264f89d877d5627c1f26499f56bee50bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/LinearInterpolation_asm/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/LinearInterpolation_asm/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PWMSine/PWMSine.c
+FileChecksum: SHA1: 4c3855bb90cd4c1bd4af6028084241179152424c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PWMSine/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PWMSine/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PWMSine/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PeriodMeasure/PeriodMeasure.c
+FileChecksum: SHA1: 7f2158de3128c69815de5da52ec6f5d56f4d83f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PeriodMeasure/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PeriodMeasure/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PeriodMeasure/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PeriodicSysTickInt/PeriodicSysTickIntsMain.c
+FileChecksum: SHA1: 94691e795614934d9c3c2f86cd3470b6aa57ce64
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PeriodicSysTickInt/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PeriodicSysTickInt/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PeriodicSysTickInt/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PointerTrafficLight/PointerTrafficLightmain.c
+FileChecksum: SHA1: 79d7481a2b19bc0cb9756f9ec6d7c3a0dc8c3f43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PointerTrafficLight/msp432p401r.cmd
+FileChecksum: SHA1: 12f7dd555f9c79b3f69328b927c275f597d81f61
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PointerTrafficLight/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 6f18c01b9f69f9cdf784a592e76367f7067ff6ab
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/PointerTrafficLight/system_msp432p401r.c
+FileChecksum: SHA1: d9d494eebf5961dc44a810db86f4d39d5b4857a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ProfileSqrt/ProfileSqrt.c
+FileChecksum: SHA1: 550b5fa5aa057adb37620ec0ec3212be32eddc99
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ProfileSqrt/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ProfileSqrt/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/ProfileSqrt/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SimpleProject_asm/main.asm
+FileChecksum: SHA1: 2dd9f84190fcb28321013988d5e97d97f04eeb9d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SimpleProject_asm/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SimpleProject_asm/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SimpleProject_asm/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SineFunction/SineFunction.c
+FileChecksum: SHA1: f48b849085ffd1efcaf77cad6b1155ffd9873a7d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SineFunction/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SineFunction/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SineFunction/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Switch/Switch.c
+FileChecksum: SHA1: accc5f8917b337da0c447b309e8b917bda40ea43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Switch/Switch.h
+FileChecksum: SHA1: 0ac689df113e9ab2a4412b8f52bb8f17c23218dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Switch/Switchmain.c
+FileChecksum: SHA1: 0b94e5fd00c99fc5ede8d250e4fd32219e50869b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Switch/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Switch/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Switch/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SysTick/SysTickTestMain.c
+FileChecksum: SHA1: 94988cc1a39b98bfe21365a405334372361673dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SysTick/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SysTick/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/SysTick/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/TExaS/TExaSmain.c
+FileChecksum: SHA1: 8350dc8297d35bb8d2da16494a1a54dbc8d4637c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/TExaS/msp432p401r.cmd
+FileChecksum: SHA1: 4214c314a4cbb16aefea2c47f03bb337ab90eb59
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/TExaS/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/TExaS/system_msp432p401r.c
+FileChecksum: SHA1: 69df0917a04b4c30cec731c21262dce79f95ebb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/UART/UARTtestmain.c
+FileChecksum: SHA1: 1ae29bc1191a3275340410f4975d4bb315e75eb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/UART/msp432p401r.cmd
+FileChecksum: SHA1: 49649a8bb2a63f5a5f3e81a59d1efa898ef2d6d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/UART/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/UART/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Ultrasound/UltrasoundLCDmain.c
+FileChecksum: SHA1: f986ccf9b9f23ab3b3c0540d4c941f2ff22823e8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Ultrasound/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Ultrasound/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/Ultrasound/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/VerySimpleApplicationProcessor/VerySimpleApplicationProcessor.c
+FileChecksum: SHA1: fb840d711131b13ba3173926c34bb17c70b4af3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/VerySimpleApplicationProcessor/msp432p401r.cmd
+FileChecksum: SHA1: 19dc93d188b89676c5e995e452d5a7976956d601
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/VerySimpleApplicationProcessor/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: 4552f24594bf3e7ebc3e1791d068ee170f25f856
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/VerySimpleApplicationProcessor/system_msp432p401r.c
+FileChecksum: SHA1: 65be28054d3e1561217d2f006276c4f9c8f14091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2016 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/ADC14.c
+FileChecksum: SHA1: ce04ac1aa6177545cd3c0f84833e322660ecf200
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/ADC14.h
+FileChecksum: SHA1: 1534b81d780ce0df5a66ec8439496e482b5c9f70
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/AP.c
+FileChecksum: SHA1: 3a0fc25e06b38624d03d40fde5f03805f6e731e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/AP.h
+FileChecksum: SHA1: 831bc74acd3d7da3090eed71efe388898b866fbd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Bump.c
+FileChecksum: SHA1: 5caffaea512c41d8845128975338bdf04458bb1c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Bump.h
+FileChecksum: SHA1: 0b78bb002b964baf005950f08114402aaf05dd4c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/BumpInt.c
+FileChecksum: SHA1: 09f4649f77b97afadf84bb9fed114929f17d2a5b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/BumpInt.h
+FileChecksum: SHA1: 0eb6d0a74637f5decde1d5dd7419d1a88378e429
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Clock.c
+FileChecksum: SHA1: 0c0e3802fdd79c0a64c232fca7d855f8db91005f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Clock.h
+FileChecksum: SHA1: 6f9fd7049f02ee3dda0402803fee54bc2af07ebd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/CortexM.c
+FileChecksum: SHA1: 159ae81ad080e504585728fde4e7496d0faee76d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/CortexM.h
+FileChecksum: SHA1: 47b88df7a8899cdfec9cd1d865e46cb583b53bc2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/EUSCIA0.c
+FileChecksum: SHA1: 2201c2edf60f25c40436813804bf3569653294ec
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/EUSCIA0.h
+FileChecksum: SHA1: 1f77c4ac5e7897b3136da3dffef4fb47b9f0e1b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/FIFO0.c
+FileChecksum: SHA1: 9298f115523255cc8be5eae11fd7e56363caf056
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/FIFO0.h
+FileChecksum: SHA1: b46a255b40747be4788e9e6846d7520e31180397
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/FlashProgram.c
+FileChecksum: SHA1: b2a8df6fd49f97e476f979d35c01dd7667a92036
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Jonathan Valvano, copyright (c) 2016
+Jonathan Valvano, copyright (c) 2016
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/FlashProgram.h
+FileChecksum: SHA1: 9011fcba32033bf337a91dfe93100199f289b9e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/GPIO.c
+FileChecksum: SHA1: ed688c0b571ce8015bdf276a1a276470eef6171c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/GPIO.h
+FileChecksum: SHA1: cf80b837401b9755eee4f3cc1db22104ce282777
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/IRDistance.c
+FileChecksum: SHA1: 579bd805deafa105717450eb916e814cd37aa693
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/IRDistance.h
+FileChecksum: SHA1: c5b0dfc43e1eaee515b994efaf00ca4140383648
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/LPF.c
+FileChecksum: SHA1: a5f5e4be644b4cf4fd6a2f37b4ba61b0b07935e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/LPF.h
+FileChecksum: SHA1: 24bc7510f0bb363d61512d05f50b538c48c64b95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/LaunchPad.c
+FileChecksum: SHA1: 5c6d29cf807e0ebf1bd23fd446ceeac70da87dfc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/LaunchPad.h
+FileChecksum: SHA1: 20250174a9926ce92f33145f53ad47556aa8d87f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Motor.c
+FileChecksum: SHA1: 8e7b111903c30ed3c4221785d5589da17b3c9e62
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Motor.h
+FileChecksum: SHA1: 2ba568d7787087641cbb36796ea55bc3974619a1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/MotorSimple.c
+FileChecksum: SHA1: fc38d3e4045939d21929586d1814d08fb3d4f4ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/MotorSimple.h
+FileChecksum: SHA1: 177838874df6864287582690fd0e0909e56a8a96
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Nokia5110.c
+FileChecksum: SHA1: ba91070491465821c37e6cd9a5f17fa266594857
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Nokia5110.h
+FileChecksum: SHA1: d4606ea7eb780ff806248bf8e7d783bde9706f08
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/PWM.c
+FileChecksum: SHA1: b542b1ac877699c524ebe3ddb97d4c735442091a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/PWM.h
+FileChecksum: SHA1: 619658a4ca46ac80ee3c7e4c3abf571be74533f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Reflectance.c
+FileChecksum: SHA1: fd448372030b69ac98c1d387f68e88e3c27297df
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Reflectance.h
+FileChecksum: SHA1: b642fa49363c48cc24c59699354585d7f9c77b32
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/SysTick.c
+FileChecksum: SHA1: 4f73f8b62594c44972ddb78319acd05ed58e4f95
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/SysTick.h
+FileChecksum: SHA1: 36ecda01e36613ad91b18f2750e00f8a3dc41e3b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/SysTickInts.c
+FileChecksum: SHA1: 99b1d990cf71749f2b838c37954e299024722b0f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/SysTickInts.h
+FileChecksum: SHA1: bb7886f2e54f9fa8abcf3174415769f079fbcaf5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TA0InputCapture.c
+FileChecksum: SHA1: 316f13554faaa7aaf178bd72a23bfaa7c836b534
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TA0InputCapture.h
+FileChecksum: SHA1: b1391c962e945b726fe352c6a60303b77b5af71e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TA2InputCapture.c
+FileChecksum: SHA1: 9a963b82c9295308585f4b90a6bb4d01df017e29
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TA2InputCapture.h
+FileChecksum: SHA1: d59b22cda5c2404744c3cebcffc3cda0b1b262f6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TA3InputCapture.c
+FileChecksum: SHA1: c7a88b365fa961411b164a2e1338edd9ad51ee06
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TA3InputCapture.h
+FileChecksum: SHA1: 14fd229aba200e0539b43ca0ebf5f75dff7f1897
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TExaS.c
+FileChecksum: SHA1: b536909a096f688543a7d3972133505a637e43c4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TExaS.h
+FileChecksum: SHA1: a216fca076622b092416b95d41f033fdb4808bbc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Tachometer.c
+FileChecksum: SHA1: 8f717ddc2fee3bde2bc04d022b920e6564c5a534
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Tachometer.h
+FileChecksum: SHA1: f67403e647d33843174d156a5b9dadc1f8e8e1db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Timer32.c
+FileChecksum: SHA1: 8187bd0fdbab77f07a160e8daf581b9ad788f0d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Timer32.h
+FileChecksum: SHA1: 5ff37e2d8fe61a685d4187a842d34980ee0cefbf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TimerA0.c
+FileChecksum: SHA1: 9799500e2b99b2f2c46908b94b94ea7326dce436
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TimerA0.h
+FileChecksum: SHA1: 1eee156ab296bfe6a6caee13153762f06856da54
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TimerA1.c
+FileChecksum: SHA1: 99cab8437578a0366d3c231ce512c48ffda81ccb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TimerA1.h
+FileChecksum: SHA1: dac207a0e5a616c3ddec75351e3ab2b9da7bcfbb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TimerA2.c
+FileChecksum: SHA1: 4afd2967e5939f519408ea3382d9e3e44531ee8d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/TimerA2.h
+FileChecksum: SHA1: e73bb8a4e71da9bbc8a9a557fe5694f59854ebf2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/UART0.c
+FileChecksum: SHA1: c0cad58127dda731ce0b9903fa1cc5c27c75888b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/UART0.h
+FileChecksum: SHA1: 763cf1657d6cad50a978d713b7dbce03ad37b5ac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/UART1.c
+FileChecksum: SHA1: c6f3ca0623aebfda8d5c92e1a7fb529583bd4f5d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/UART1.h
+FileChecksum: SHA1: 30e257eab9490551c4ccac5608afd8963103ce78
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Ultrasound.c
+FileChecksum: SHA1: f6b2fe216d5f0bdc515e3583f9bb3023ea050474
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>copyright (c) 2017 Embedded Systems Real-Time Interfacing
+copyright (c) 2017 Embedded Systems Real-Time Operating Systems
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/Ultrasound.h
+FileChecksum: SHA1: 4d8b4a45c38822a580d82689621c44833dd5d3a2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: <text>Valvano Copyright 2017 by Jonathan W. Valvano, valvano@mail.utexas.edu
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Jonathan Valvano, copyright (c) 2017
+Copyright (c) 2017, Jonathan Valvano
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/ValvanoDictionary
+FileChecksum: SHA1: 065ac4ef2eb9b1a2eb0243e032dab5dea9631014
+LicenseConcluded: BSD-2-Clause
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/incmain.c
+FileChecksum: SHA1: e67812077c19def055a083eeed7b4a83f50e3c21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NONE
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/msp432p401r.cmd
+FileChecksum: SHA1: 49649a8bb2a63f5a5f3e81a59d1efa898ef2d6d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/startup_msp432p401r_ccs.c
+FileChecksum: SHA1: a49d7e085b84f8cf3123e3040dddfd877bebf098
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2012 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# File
+
+FileName: ./tirslk_maze_1_00_00/inc/system_msp432p401r.c
+FileChecksum: SHA1: a363b9cd2913d48a46b401f3f05f56b13f1c936b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (c) 2015 - 2017 Texas Instruments Incorporated
+</text>
+
+
+# Extracted Licenses
+
